@@ -21,7 +21,7 @@ if (!empty($_COOKIE['theme'])) {
 <body class="<?php echo $theme; ?>">
   <header>
     <nav>
-      <button class="theme-toggle">Toggle Dark Mode</button>
+      <button class="theme-toggler" id="theme-toggler">Toggle Dark Mode</button>
     </nav>
   </header>
   <section>
