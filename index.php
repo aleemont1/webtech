@@ -1,3 +1,10 @@
+<?php
+  $theme = '';
+  if(!empty($_COOKIE['theme'])) {
+    $theme = $_COOKIE['theme'];
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,6 +18,11 @@
   </head>
 
   <body>
+    <header>
+      <nav>
+        <button class="theme-toggle">Toggle Dark Mode</button>
+      </nav>
+    </header>
     <section>
       <h1>WEB APP</h1>
       <p>This is a WEB APP test</p>
